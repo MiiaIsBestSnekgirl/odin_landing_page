@@ -55,6 +55,7 @@ h1 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
 }
 
 .quote {
@@ -62,17 +63,49 @@ h1 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    text-align: center;
+    padding: 50px;
 }
 
-.action-container {
+.quote blockquote {
+    font-style: italic;
+}
+
+.quote figcaption {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.action-item {
     background-color: #3882F6;
+    margin: 50px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.action-item-text {
+    margin: 0;
+    padding: 0;
+}
+
+.action-item button {
+    border-color: white;
+
+
 }
 
 button {
     background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
 }
 
 footer {
     background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 10px;
 
 }
